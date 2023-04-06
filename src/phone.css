@@ -1,0 +1,22 @@
+#hom{
+    margin-left: 0px;
+}
+.op{
+    padding: 0px 10px;
+}
+
+
+#home{
+    height: 370px;
+    padding: 3px 28px;
+}
+#home::before{
+    height: 450px;
+}
+#home p{
+    font-size: 13px;
+}
+
+.image{
+    display: none; 
+}

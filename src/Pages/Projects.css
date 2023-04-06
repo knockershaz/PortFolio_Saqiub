@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text_box{
+    background-color: #ffffff;
+    padding: 44px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+h3{
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom: 15px;
+}
+p{
+    text-align: center;
+}
+.item{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

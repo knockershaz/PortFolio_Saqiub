@@ -1,0 +1,465 @@
+.op:hover{
+    background-color: rgb(255, 217, 2);
+    border-radius: 50px;
+}
+
+.op{
+    font-family:'Futura'; 
+    width: 100px;
+    text-align: center;
+    
+}
+#name{
+font-family: 'Futura';
+font-weight: 700;
+font-size : 30px;
+}
+#hom{
+    margin-left:16rem;
+}
+
+.image{
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.image:hover{
+    transform: scale(1.7);
+}
+    .car{
+        height: 600px;
+    }
+    #home{
+        /* position: relative; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 12px;
+        height: 555px;
+        flex-direction: column;
+    }
+    /* #home::before{
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background: url(images/Book.jpg)no-repeat center center/cover;
+        
+        height: 600px;
+        z-index: -1;
+        
+        width: 100%;
+    } */
+    
+    #home h1{
+        color: black;
+        font-family: 'Futura';
+        font-weight: 700;
+        text-align: center;
+        
+    }
+    #home p{
+        color: black;
+        text-align: center;
+        font-family:'Futura';
+        font-size : 1rem;
+    }
+
+
+    .wt-bg{
+        background-color: white;
+        border-radius: 0px;
+        color: black;
+        padding: 50px;
+    }
+    
+  
+    #Skill1 h1{
+      padding-top: 30px;
+        color: rgb(255, 255, 255);
+        font-family: 'Futura';
+        font-weight: 700;
+        text-align: center;
+        
+    }
+    #Skill1 p{
+        color: black;
+        text-align: center;
+        font-family:'Futura';
+        font-size : 1rem;
+    }
+
+
+    .skill1{
+        background-image: url(./images/diversity-5582454_1920.jpg);
+        border-radius: 0px;
+        padding: 50px;
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+        opacity: 0.8;
+    }
+    .skill1 h1{
+        color: white;
+    }
+    
+    #S1 h1{
+      padding-top: 30px;
+        color: rgb(0, 0, 0);
+        font-family: 'Futura';
+        font-weight: 700;
+        text-align: center;
+        
+    }
+    #S2 h1{
+      padding-top: 30px;
+        color: rgb(255, 255, 255);
+        font-family: 'Futura';
+        font-weight: 700;
+        text-align: center;
+        
+    }
+    .s1{
+        margin-top: 100px;
+        border-radius: 0px;
+        padding: 50px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+
+
+    /* Utilities */
+    .mylink{
+        color: rgb(0, 0, 0);
+    }
+    .mylink:hover{
+        color: #3366CC;
+    }
+    
+    .back-video{
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+    .hero{
+        width: 100%;
+        height: 100vh;
+    }
+    @media (min-aspect-ratio:16/9){
+        .back-video{
+            width: 100%;
+            height: auto !important;
+        }
+    }
+    @media (max-aspect-ratio:16/9){
+        .back-video{
+            width: auto;
+            height: 100% !important;}}
+
+.goup{
+  background-color: none;
+  border-radius: 14px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;}
+
+.button_half{
+    position: relative;
+    top: -18px;
+    background-color: #ffd000;
+    border-radius: 30px;
+    border-color: #ffd000;
+    border-width: 1px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: futura;
+    
+}
+ 
+  .button_half:hover {
+    background-color: #ffffff;
+    font-family: futura;
+    color: black;
+    border-color: #ffd000;
+    border-width: 1px;
+  }
+
+
+.pro_img{
+    transition: all 0.5s;
+    object-fit: fill;
+}
+.pro_img:hover{
+    transform: scale(1.1);
+}
+
+/* Skills CSS */
+.skills{
+    width: 85%;
+    margin: 50px auto;
+}
+.heading{
+    text-align: center; background-color: #ffc107; padding: 10px 0px; border-radius: 12px;
+}
+
+
+
+.skill_ui{
+  border-bottom: 5px solid #ffd000;
+  background-color: white;
+  padding: 10px 0px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.57); */
+  margin-top: 100px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.skills_li{
+  width: 150px;
+  text-align: center;
+  border-radius: 25px;
+  list-style: none;
+  background-color: rgba(255, 255, 255);
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: all 0.25s;
+}
+.skills_li.active{
+  background-color: #ffc107;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+.product{
+  width: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.product img{
+  width: 100px;
+  height: 90px;
+  margin-bottom: 10px;
+  object-fit: contain;
+  /* display: none; */
+}
+
+.lang{
+  display: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+  article {
+    --img-scale: 1.001;
+    --title-color: black;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+  }
+  
+  article a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+  }
+  
+  /* basic article elements styling */
+  article h2 {
+    margin: 0 0 18px 0;
+    font-family: "futura";
+    font-weight: 700;
+    font-size: 1.4rem;
+    
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  
+  article img {
+    max-width: 100%;
+    transform-origin: center;
+    transform: scale(var(--img-scale));
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .article-body {
+    padding: 54px;
+  }
+  
+  article a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: futura;
+    color: #332321;
+  }
+  
+  article a:focus {
+    outline: 1px dotted #332321;
+  }
+  
+  article a .icon {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    transform: translateX(var(--link-icon-translate));
+    opacity: var(--link-icon-opacity);
+    transition: all 0.3s;
+  }
+  
+  /* using the has() relational pseudo selector to update our custom properties */
+  article:has(:hover, :focus) {
+    --img-scale: 1.1;
+    --title-color: #332321;
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  
+  /************************ 
+  Generic layout (demo looks)
+  **************************/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+   
+    font-family: "futura";
+    font-size: 1rem;
+    
+    min-height: 100vh;
+  }
+  
+  .articles {
+    display: grid;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    article {
+      container: card/inline-size;
+    }
+    .article-body p {
+      display: none;
+    }
+  }
+  
+  @container card (min-width: 380px) {
+    .article-wrapper {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 16px;
+    }
+    .article-body {
+      padding-left: 0;
+    }
+    figure {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    figure img {
+      height: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+  }
+  
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+
+  .hr_style{
+          width:15%;
+          height: 2px;
+          background-color: #ffd000;
+          margin-bottom: 6px;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 4px;
+          border-width: 4px;
+          border-color: #ffd000;
+          text-align:centre;
+          opacity: 1;
+  }
+
+
+ .profile:hover{
+    color: #007bffe1;
+ }
+ .sub-head{
+  text-align: left;
+  color: white; 
+  padding: 70px;
+  margin-top: 5rem;
+  background-color: #caa502;
+ }
+ .sub-head h1{
+  margin-left: 20px;
+ }
+ .sub-head p{
+  margin-left: 20px;
+ }
+ .sub-head hr{
+  border-width: 4px;
+  border-color: white;
+  opacity: 1;
+  margin-left: 20px;
+ }
